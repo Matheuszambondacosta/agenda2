@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/script.js"></script>
+
+</head>
+
+<body>
+    <h1>Agenda Telefônica</h1>
+    <div id="inpts">
+        <input class="bot" type="text" id="nome" placeholder="Nome completo">
+        <input class="bot" maxlength="11" type="text" id="telefonefixo" placeholder=" telefone fixo">
+        <input class="bot" maxlength="11" type="text" id="telefonecelular" placeholder="telefone celular">
+        <input class="bot" type="text" id="url" placeholder="URL da foto">
+        <input class="bot" type="date" id="data">
+        <input class="bot" type="email" id="email" placeholder="email"><br>
+        <input class="bot" maxlength="8" type="text" id="cep" placeholder="CEP">
+        <input class="bot" type="text" id="cidade" placeholder="Cidade">
+        <input class="bot" type="text" id="instagram" placeholder="@instagram">
+        <input class="bot" type="text" id="Github" placeholder="@Github">
+        <div id="resultado">
+            <button id="botao" onclick="createUser()">Adicionar Contato</button>
+        </div>
+        <div>
+            <p id="error-msg"></p>
+            <p id="success-msg"></p>
+        </div>
+
+        <div id="listar"></div>
+
+        <div id="listar2"></div>
+
+</body>
+
+</html>

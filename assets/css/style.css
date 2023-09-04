@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#botao{
+    background-color:rgb(0, 117, 226);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#inpts{
+   margin-left: 300px; 
+}
+#resultado{
+    display: flex;
+}
+.vap{
+position: fixed;
+right: 0;
+}
